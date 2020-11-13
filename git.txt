@@ -1,0 +1,27 @@
+git init - tworzy lokalne repo
+
+git status
+
+stage - pliki śledzone, dodawane przy commicie
+
+tracked-śledzone/untracked/stashed-
+ignored-celowo ignorujemy(np klucze do api)
+
+git add file -> dodaje do stage+tracked
+jeśli coś zmienimy, to wykrywa, ale trzeba dodać na stage
+
+git add . -> dodaje cały folder
+
+git commit -> zapisuje pliki ze stage do repo
+git commit -m "message"
+
+git log -> pokazuje commity
+
+
+utwórz repo na GH
+…or push an existing repository from the command line
+git remote add origin https://github.com/miloszcwen/git-lesson.git
+git branch -M main
+git push -u origin main
+ połącz repo
+
